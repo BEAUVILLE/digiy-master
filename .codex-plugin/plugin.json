@@ -1,0 +1,37 @@
+{
+  "name": "digiy-master",
+  "version": "0.1.0",
+  "description": "Workflow DIGIYLYFE pour recoudre proprement les fichiers, auditer le mobile terrain, relire les PR et garder une façade humaine.",
+  "author": {
+    "name": "DIGIYLYFE",
+    "email": "contactdigiylyfe@gmail.com",
+    "url": "https://digiylyfe.com"
+  },
+  "homepage": "https://digiylyfe.com",
+  "repository": "https://github.com/BEAUVILLE/digiy-master",
+  "license": "Proprietary",
+  "keywords": [
+    "digiy",
+    "frontend",
+    "mobile",
+    "supabase",
+    "html",
+    "slug-first"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DIGIY Master",
+    "shortDescription": "Le moule maître DIGIY pour coder sans trahir le terrain.",
+    "longDescription": "Recouture front, contrôle mobile, revue de PR et façade humaine pour les modules DIGIYLYFE.",
+    "developerName": "DIGIYLYFE",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://digiylyfe.com",
+    "defaultPrompt": [
+      "Utilise DIGIY Master pour recoudre ce fichier sans toucher au backend réel.",
+      "Utilise DIGIY Master pour auditer cette page mobile terrain.",
+      "Utilise DIGIY Master pour relire cette PR selon la doctrine DIGIY."
+    ],
+    "brandColor": "#0F766E"
+  }
+}

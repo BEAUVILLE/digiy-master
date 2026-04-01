@@ -19,6 +19,7 @@
     "slug-first"
   ],
   "skills": "./skills/",
+  "agents": "./AGENTS.md",
   "interface": {
     "displayName": "DIGIY Master",
     "shortDescription": "Le moule maître DIGIY pour coder sans trahir le terrain.",

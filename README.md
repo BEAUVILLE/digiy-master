@@ -23,9 +23,12 @@ Dépôt de doctrine et de workflows pour le codebase **DIGIYLYFE**.
 - On ne réécrit pas le backend si le frontend est le problème.
 - Les mots visibles restent humains, jamais techniques.
 - On livre toujours le fichier entier quand une correction est demandée.
+On peut épurer une page, mais on ne doit jamais couper ses routes : Site, HUB, Tarifs, retour utile et action principale terrain.
 
 ## Plateforme
 
 **DIGIYLYFE** — Saly · Mbour · Dakar · Petite Côte  
 0% commission · Abonnement fixe · Souveraineté numérique africaine  
-[digiylyfe.com](https://digiylyfe.com)
+- Site : https://digiylyfe.com/
+- HUB : https://digiy-hub.digiylyfe.com/
+- Tarifs : https://tarifs.digiylyfe.com/

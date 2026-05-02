@@ -44,3 +44,16 @@ FRET PRO · RESTO PRO · EXPLORE · FRET CHAUFFEUR · FRET CLIENT · NOTABLE
 - Pas de pseudo-démo.
 - Pas de changement backend non demandé.
 - Toujours signaler ce qui a été gardé, corrigé, ou volontairement laissé intact.
+- ## Loi des routes DIGIY
+
+On peut épurer une page, mais on ne doit jamais couper ses routes.
+
+Toute page DIGIY recousue doit vérifier la présence ou la pertinence de ces portes :
+
+- Site DIGIYLYFE : https://digiylyfe.com/
+- HUB DIGIY : https://digiy-hub.digiylyfe.com/
+- Tarifs : https://tarifs.digiylyfe.com/
+- Retour utile vers le module, la vitrine ou l’espace métier concerné
+- Action principale terrain visible sans chercher
+
+Une page plus sobre doit mieux guider l’utilisateur, pas l’enfermer.

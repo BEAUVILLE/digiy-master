@@ -1,6 +1,7 @@
 # Doctrine DIGIYLYFE — Quartier Général
 
 ## Règles non négociables
+
 - Toujours partir du fichier réel existant.
 - Ne jamais réécrire à l'aveugle un module entier si le fichier source existe déjà.
 - Zéro démo si le rail réel existe.
@@ -12,39 +13,7 @@
 - Sur mobile : moins de bla-bla, plus d'action.
 - Les mots visibles au public doivent rester humains, jamais techniques.
 
-## Vocabulaire façade
-- Ne pas afficher : module, PRO, dashboard, cockpit, slug, backend, configuration, système, rail, session, token.
-- Préférer les mots métier et les gestes humains.
-- Le bouton principal doit nommer une action concrète.
-
-## Architecture DIGIYLYFE
-- Backend : Supabase (tables réelles, RLS actif)
-- Auth : RPC `digiy_verify_pin` — params `{p_phone, p_module, p_pin}` — table `go_pins`
-- Pattern auth canonique : `window.DIGIY_LOGIN_URL` → `visibility:hidden` → `guard.js` → Supabase CDN → app scripts
-- Session : clé `digiy_guard_session:MODULE` — expiry 8h — sessionStorage + localStorage
-- Hébergement front : GitHub Pages
-- API : VPS Nginx + PM2
-- Modèle commercial : 0% commission, abonnement fixe
-
-## Modules actifs (ne pas désactiver)
-CAISSE PRO · DRIVER PRO · LOC PRO · MARKET · JOBS · BUILD · PAY
-
-## Modules en veille stratégique (ne pas toucher)
-FRET PRO · RESTO PRO · EXPLORE · FRET CHAUFFEUR · FRET CLIENT · NOTABLE
-
-## Méthode de travail
-1. Lire le fichier actuel.
-2. Identifier le rail réel à conserver.
-3. Repérer les vieux rails, démos, boucles d'accès ou incohérences vocabulaire.
-4. Corriger seulement ce qui est utile.
-5. Renvoyer un résultat propre, complet, directement exploitable.
-
-## Sortie attendue
-- Pas de fragments inutiles.
-- Pas de pseudo-démo.
-- Pas de changement backend non demandé.
-- Toujours signaler ce qui a été gardé, corrigé, ou volontairement laissé intact.
-- ## Loi des routes DIGIY
+## Loi des routes DIGIY
 
 On peut épurer une page, mais on ne doit jamais couper ses routes.
 
@@ -57,3 +26,50 @@ Toute page DIGIY recousue doit vérifier la présence ou la pertinence de ces po
 - Action principale terrain visible sans chercher
 
 Une page plus sobre doit mieux guider l’utilisateur, pas l’enfermer.
+
+## Vocabulaire façade
+
+- Ne pas afficher : module, PRO, dashboard, cockpit, slug, backend, configuration, système, rail, session, token.
+- Préférer les mots métier et les gestes humains.
+- Le bouton principal doit nommer une action concrète.
+
+## Architecture DIGIYLYFE
+
+- Backend : Supabase (tables réelles, RLS actif)
+- Auth : RPC `digiy_verify_pin` — params `{p_phone, p_module, p_pin}` — table `go_pins`
+- Pattern auth canonique : `window.DIGIY_LOGIN_URL` → `visibility:hidden` → `guard.js` → Supabase CDN → app scripts
+- Session : clé `digiy_guard_session:MODULE` — expiry 8h — sessionStorage + localStorage
+- Hébergement front : GitHub Pages
+- API : VPS Nginx + PM2
+- Modèle commercial : 0% commission, abonnement fixe
+
+## Sécurité front
+
+- Ne jamais exposer de `service_role key` côté client.
+- Ne jamais afficher de secret dans le HTML, le JavaScript public, les logs ou la console.
+- Les pages PRO doivent conserver leur protection d’accès.
+- `guard.js` ne doit pas être supprimé si la page dépend d’un accès PRO.
+- Une simplification visuelle ne doit jamais transformer une page protégée en page publique.
+
+## Modules actifs (ne pas désactiver)
+
+CAISSE PRO · DRIVER PRO · LOC PRO · MARKET · JOBS · BUILD · PAY · RESA · EXPLORE
+
+## Modules en veille stratégique (ne pas toucher)
+
+FRET PRO · RESTO PRO · FRET CHAUFFEUR · FRET CLIENT · NOTABLE
+
+## Méthode de travail
+
+1. Lire le fichier actuel.
+2. Identifier le rail réel à conserver.
+3. Repérer les vieux rails, démos, boucles d'accès ou incohérences vocabulaire.
+4. Corriger seulement ce qui est utile.
+5. Renvoyer un résultat propre, complet, directement exploitable.
+
+## Sortie attendue
+
+- Pas de fragments inutiles.
+- Pas de pseudo-démo.
+- Pas de changement backend non demandé.
+- Toujours signaler ce qui a été gardé, corrigé, ou volontairement laissé intact.

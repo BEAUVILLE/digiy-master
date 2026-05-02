@@ -1,0 +1,129 @@
+# review-pr-digiy
+
+## Rôle
+
+Relire une modification DIGIYLYFE avant validation, en vérifiant qu’elle respecte la doctrine terrain, la sécurité, le rail d’accès, le backend réel et l’usage mobile.
+
+L’objectif n’est pas de tout réécrire.
+L’objectif est de protéger ce qui existe, détecter ce qui casse, et empêcher qu’une page belle en façade perde ses routes, son accès, son sens ou sa sécurité.
+
+---
+
+## Checklist de review
+
+### 1. Doctrine façade
+
+- [ ] Aucun terme technique visible côté utilisateur : `slug`, `rail`, `RPC`, `backend`, `module`, `dashboard`, `cockpit`, `guard`, `Supabase`, `RLS`.
+- [ ] Les mots visibles sont humains, simples et actionnables.
+- [ ] Les boutons nomment un geste réel : appeler, réserver, encaisser, bloquer une date, voir mon argent, ajouter un produit.
+- [ ] La page explique ce que l’utilisateur peut faire sans demander au terrain de comprendre la technique.
+- [ ] Les messages d’erreur visibles restent humains et utiles.
+
+---
+
+### 2. Navigation et portes de circulation
+
+- [ ] La page garde une route vers le site principal : `https://digiylyfe.com/`.
+- [ ] La page garde une route vers le HUB : `https://digiy-hub.digiylyfe.com/`.
+- [ ] La page garde une route vers les tarifs : `https://tarifs.digiylyfe.com/`.
+- [ ] La page garde un retour utile vers le métier ou la page publique concernée.
+- [ ] L’action principale terrain reste visible et claire.
+- [ ] Une simplification visuelle ne coupe jamais les chemins importants.
+
+Règle DIGIY :
+
+> On peut épurer une page, mais on ne doit jamais couper ses routes.
+
+---
+
+### 3. Sécurité
+
+- [ ] Aucune `service_role key` exposée côté client.
+- [ ] Aucune clé secrète privée dans HTML, JS public ou console.
+- [ ] Les pages PRO passent par un accès protégé.
+- [ ] `guard.js` est présent et cohérent sur les pages PRO.
+- [ ] Les données sensibles ne sont pas affichées publiquement.
+- [ ] Les URLs ne révèlent pas inutilement des informations privées.
+
+---
+
+### 4. Auth rail
+
+- [ ] Le pattern canonique est respecté :
+  `window.DIGIY_LOGIN_URL → visibility hidden → guard.js → Supabase CDN → app scripts`.
+- [ ] La clé `sessionStorage` suit le format :
+  `digiy_guard_session:MODULE`.
+- [ ] L’expiration de session respecte la durée prévue, généralement 8h.
+- [ ] Le PIN sert d’entrée ou de secours, pas de barrière répétée entre pages internes.
+- [ ] Une page interne déjà ouverte par session valide ne renvoie pas inutilement vers le PIN.
+- [ ] La circulation interne conserve le contexte utile : `slug`, `phone`, ou données nécessaires selon le module.
+
+---
+
+### 5. Backend réel
+
+- [ ] Les RPC utilisées existent réellement.
+- [ ] Pour l’accès PIN, le rail canonique est :
+  `digiy_verify_pin` avec `{ p_phone, p_module, p_pin }`.
+- [ ] Les noms de tables ne sont pas inventés.
+- [ ] Aucun backend déjà validé n’est remplacé sans preuve de bug.
+- [ ] Les anciennes logiques ne sont pas mélangées avec les rails actuels.
+- [ ] Les erreurs SQL ou Supabase sont traitées sans casser toute la page.
+
+---
+
+### 6. Mobile terrain
+
+- [ ] Le CTA principal est visible sans scroller sur téléphone.
+- [ ] Le menu ou les actions principales sont atteignables au pouce.
+- [ ] La page ne demande pas au pro de lire trop longtemps avant d’agir.
+- [ ] Pas de flash blanc au chargement.
+- [ ] Les boutons sont assez grands pour usage terrain.
+- [ ] Les textes longs sont rangés derrière, pas imposés en premier écran.
+- [ ] La page reste utilisable sur téléphone moyen, connexion moyenne, soleil, fatigue, urgence.
+
+---
+
+### 7. Respect du fichier existant
+
+- [ ] La modification part du vrai fichier existant.
+- [ ] Pas de réécriture complète si une correction ciblée suffit.
+- [ ] Les fonctions déjà utiles sont conservées.
+- [ ] Les URLs, RPC, tables, clés localStorage/sessionStorage existantes ne sont pas cassées.
+- [ ] Les commentaires techniques internes peuvent rester si utiles, mais ne doivent pas apparaître côté utilisateur.
+- [ ] Le style visuel reste cohérent avec DIGIYLYFE.
+
+---
+
+## Format de sortie attendu
+
+Le résultat de review doit toujours sortir avec cette structure :
+
+```md
+## Verdict global
+
+✅ MERGE  
+ou  
+⚠️ RÉSERVES  
+ou  
+❌ BLOQUER
+
+## Points bloquants
+
+- ...
+
+## Réserves non bloquantes
+
+- ...
+
+## Ce qui est bien fait
+
+- ...
+
+## Corrections recommandées
+
+- ...
+
+## Conclusion terrain
+
+Phrase courte, claire, orientée décision.

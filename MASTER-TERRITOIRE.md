@@ -56,6 +56,28 @@ Le slug reste la clé humaine. Une production existante peut conserver ses UUID 
 
 Les zones ne doivent pas mélanger plusieurs pays ni plusieurs territoires sans raison explicite.
 
+### 3.1 Zone de base et zones d'intervention
+
+La **zone de base** indique où le professionnel est principalement rattaché. Elle porte son ancrage territorial public.
+
+Les **zones d'intervention** indiquent où ce professionnel accepte de se déplacer, livrer, intervenir ou servir.
+
+Ces deux notions ne doivent jamais être confondues :
+
+- un professionnel possède une seule `base_zone_id` principale ;
+- il peut posséder zéro, une ou plusieurs `service_zone_ids` ;
+- il peut aussi déclarer un ou plusieurs `service_territory_ids` lorsqu'il couvre un territoire entier ;
+- une zone d'intervention ne change jamais automatiquement la zone de base ;
+- servir Mbour, AIBD ou Thiès ne transforme pas un professionnel basé à Saly en professionnel basé à Mbour, AIBD ou Thiès ;
+- une couverture hors du territoire principal doit être explicitement déclarée et validée, jamais déduite comme changement d'identité.
+
+La lecture canonique devient :
+
+`base_zone_id = ancrage`  
+`service_zone_ids / service_territory_ids = couverture`
+
+Pour compatibilité avec les données existantes, un champ historique `zone_id` peut être adapté en `base_zone_id` sans modifier immédiatement la production.
+
 ## 4. BESOINS
 
 Les besoins viennent du MASTER CORE. Ils ne sont pas recréés territoire par territoire.
@@ -68,9 +90,9 @@ Les professionnels réels appartiennent à la donnée de production, pas au coff
 
 Chaque présence publique doit pouvoir être reliée au minimum à :
 
-`country_id → territory_id → zone_id → need_id → professional_id → public_url`
+`country_id → territory_id → base_zone_id → need_id → professional_id → public_url`
 
-Le contrat peut aussi porter, selon le besoin : `activity_label`, `category`, téléphone, WhatsApp, capacités, poids de classement ou zones desservies.
+Le contrat peut aussi porter, selon le besoin : `activity_label`, `category`, téléphone, WhatsApp, capacités, poids de classement, `service_zone_ids` ou `service_territory_ids`.
 
 La production reste la source de vérité. Le MASTER décrit la forme de raccordement et les identifiants canoniques attendus.
 

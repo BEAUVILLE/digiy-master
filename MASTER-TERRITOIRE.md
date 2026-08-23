@@ -78,6 +78,23 @@ La lecture canonique devient :
 
 Pour compatibilité avec les données existantes, un champ historique `zone_id` peut être adapté en `base_zone_id` sans modifier immédiatement la production.
 
+### 3.2 Couverture effective
+
+La zone de base est toujours considérée comme desservie, même si aucune ligne de zone d'intervention n'existe en production.
+
+La couverture effective est donc :
+
+`base_zone_id + service_zone_ids + zones actives couvertes par les service_territory_ids validés`
+
+Règles :
+
+- les `service_zone_ids` ajoutent de la couverture ; ils ne remplacent jamais la zone de base ;
+- un marqueur de territoire entier représente un `service_territory_id`, pas une zone ;
+- un `service_territory_id` validé peut rendre le professionnel éligible dans les zones actives de ce territoire ;
+- une destination extérieure encore planifiée, inconnue ou non structurée reste une référence de couverture en attente ;
+- une référence extérieure non validée ne doit pas étendre automatiquement les résultats publics ;
+- aucune extension de couverture ne réattribue l'identité territoriale du professionnel.
+
 ## 4. BESOINS
 
 Les besoins viennent du MASTER CORE. Ils ne sont pas recréés territoire par territoire.
@@ -92,7 +109,7 @@ Chaque présence publique doit pouvoir être reliée au minimum à :
 
 `country_id → territory_id → base_zone_id → need_id → professional_id → public_url`
 
-Le contrat peut aussi porter, selon le besoin : `activity_label`, `category`, téléphone, WhatsApp, capacités, poids de classement, `service_zone_ids` ou `service_territory_ids`.
+Le contrat peut aussi porter, selon le besoin : `activity_label`, `category`, téléphone, WhatsApp, capacités, poids de classement, `service_zone_ids`, `service_territory_ids` ou des références extérieures en attente de validation.
 
 La production reste la source de vérité. Le MASTER décrit la forme de raccordement et les identifiants canoniques attendus.
 

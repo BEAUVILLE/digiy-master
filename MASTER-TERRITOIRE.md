@@ -40,11 +40,19 @@ Toute règle universelle remonte dans le CORE. Toute règle pays reste dans le M
 Une zone est une unité de terrain utile au visiteur et au professionnel : ville, commune, quartier, aéroport, station, bassin de vie ou autre découpage cohérent.
 
 Chaque zone possède au minimum :
-- `zone_id` ;
-- `territory_id` ;
+- un `zone_id` canonique stable ;
+- un `territory_id` ;
 - un nom public ;
 - un slug ;
 - un statut.
+
+Le `zone_id` doit être mondialement non ambigu. Format recommandé :
+
+`PAYS-TERRITOIRE-ZONE`
+
+Exemple : `SN-PETITE-COTE-SALY`.
+
+Le slug reste la clé humaine. Une production existante peut conserver ses UUID ou identifiants historiques : un adaptateur peut relier `source_zone_id` ou `source_zone_slug` au `zone_id` canonique. Le MASTER ne force jamais une migration brutale des données vivantes.
 
 Les zones ne doivent pas mélanger plusieurs pays ni plusieurs territoires sans raison explicite.
 
@@ -54,15 +62,19 @@ Les besoins viennent du MASTER CORE. Ils ne sont pas recréés territoire par te
 
 Le territoire peut seulement décider quels besoins sont visibles selon les données réellement disponibles.
 
-## 5. PROFESSIONNELS
+## 5. CONTRAT PROFESSIONNEL
 
 Les professionnels réels appartiennent à la donnée de production, pas au coffre MASTER.
 
-Chaque professionnel public doit pouvoir être relié à :
+Chaque présence publique doit pouvoir être reliée au minimum à :
 
-`country_id → territory_id → zone_id → need_id → professional_id`
+`country_id → territory_id → zone_id → need_id → professional_id → public_url`
 
-Le territoire ne révèle pas le niveau commercial acheté par le professionnel.
+Le contrat peut aussi porter, selon le besoin : `activity_label`, `category`, téléphone, WhatsApp, capacités, poids de classement ou zones desservies.
+
+La production reste la source de vérité. Le MASTER décrit la forme de raccordement et les identifiants canoniques attendus.
+
+Le territoire ne révèle jamais le niveau commercial acheté par le professionnel.
 
 L'action générique reste **OUVRIR**.
 
@@ -92,6 +104,8 @@ Le premier territoire de référence est :
 **🇸🇳 SÉNÉGAL → PETITE CÔTE**
 
 Configuration technique : `BEAUVILLE/digiy-master-modeles/MASTER-TERRITOIRE-PETITE-COTE-V1/`.
+
+Saly est la première zone pilote de raccordement architectural. Ce choix sert à tester le contrat avec des données réelles de production sans créer un MASTER SALY séparé.
 
 ---
 

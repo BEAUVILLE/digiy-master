@@ -95,6 +95,28 @@ Règles :
 - une référence extérieure non validée ne doit pas étendre automatiquement les résultats publics ;
 - aucune extension de couverture ne réattribue l'identité territoriale du professionnel.
 
+### 3.3 Éligibilité dans une zone cible
+
+Pour une zone cible donnée, un professionnel peut apparaître si au moins une condition est vraie :
+
+`target_zone_id == base_zone_id`
+
+ou
+
+`target_zone_id ∈ service_zone_ids`
+
+ou
+
+`target_zone_id appartient à un service_territory_id validé`.
+
+Dans tous les cas :
+
+- le résultat conserve la `base_zone_id` réelle du professionnel ;
+- le résultat conserve son territoire d'ancrage réel ;
+- une présence venue d'un autre territoire n'est jamais « relogée » dans la zone cible ;
+- une couverture inter-territoire doit être explicite et validée ;
+- un même professionnel ne doit apparaître qu'une fois dans la liste finale : déduplication par `professional_id`.
+
 ## 4. BESOINS
 
 Les besoins viennent du MASTER CORE. Ils ne sont pas recréés territoire par territoire.
@@ -144,7 +166,7 @@ Le premier territoire de référence est :
 
 Configuration technique : `BEAUVILLE/digiy-master-modeles/MASTER-TERRITOIRE-PETITE-COTE-V1/`.
 
-Saly est la première zone pilote de raccordement architectural. Ce choix sert à tester le contrat avec des données réelles de production sans créer un MASTER SALY séparé.
+Saly est la première zone pilote de raccordement architectural. Mbour sert de deuxième pilote pour vérifier la couverture inter-zones et la conservation de l'ancrage réel des professionnels.
 
 ---
 

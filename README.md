@@ -5,6 +5,8 @@ Dépôt de doctrine et de workflows pour le codebase DIGIYLYFE.
 ## Ce que ce repo contient
 
 - `MASTER-CORE.md` — socle mondial : CORE → PAYS → TERRITOIRE → ZONE → BESOIN → PROFESSIONNEL → OUVRIR.
+- `MASTER-PAYS.md` — doctrine de la première couche opérationnelle par pays.
+- `MASTER-TERRITOIRE.md` — doctrine locale territoire → zone → besoin → professionnel.
 - `AGENTS.md` — doctrine non négociable. Codex la lit en premier.
 - `skills/` — compétences spécialisées activables sur demande.
 - `.codex-plugin/` — configuration du plugin pour Codex CLI.
@@ -23,9 +25,9 @@ Principes :
 - les territoires et zones organisent le terrain ;
 - les besoins restent humains et universels ;
 - DRIVER, LOC, RESA, MARKET, BUILD, JOB, EXPLORE, CARNET et les autres modules sont des capacités, pas l'arbre principal ;
-- un nouveau pays doit être ajouté par configuration et données, pas par copie du moteur.
+- un nouveau pays ou territoire doit être ajouté par configuration et données, pas par copie du moteur.
 
-La doctrine complète est dans [`MASTER-CORE.md`](./MASTER-CORE.md).
+Références : [`MASTER-CORE.md`](./MASTER-CORE.md) · [`MASTER-PAYS.md`](./MASTER-PAYS.md) · [`MASTER-TERRITOIRE.md`](./MASTER-TERRITOIRE.md).
 
 ## Skills disponibles
 
@@ -57,4 +59,4 @@ La doctrine complète est dans [`MASTER-CORE.md`](./MASTER-CORE.md).
 
 ---
 
-**Le CORE est mondial. Le terrain reste local.**
+**Le CORE est mondial. Le pays organise. Le territoire rapproche.**

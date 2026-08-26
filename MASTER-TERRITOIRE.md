@@ -11,6 +11,7 @@ Références supérieures :
 Références universelles validées :
 - [`MAITRE-TERRITOIRE-UNIVERSEL-V1.md`](./MAITRE-TERRITOIRE-UNIVERSEL-V1.md)
 - `BEAUVILLE/digiy-master-modeles/MASTER-TERRITOIRE-UNIVERSEL-V1/`
+- `BEAUVILLE/digiy-master-modeles/MASTER-TERRITOIRE-UNIVERSEL-V1/config/world-ribbon-contract.json`
 
 ## Arbre maître
 
@@ -194,8 +195,15 @@ Règles universalisées notamment :
 - identité visuelle locale configurable sans dupliquer le moteur ;
 - prix hérités du MASTER PAYS ;
 - validation humaine avant publication et avant propagation d’une nouvelle règle ;
-- PWA de `digiylyfe.com` protégé comme invariant de non-régression.
+- PWA de `digiylyfe.com` protégé comme invariant de non-régression ;
+- Ruban du Monde préparé comme navigation `MONDE → PAYS → RÉGION / TERRITOIRE → VILLE / ZONE`, alimentée par la configuration et non par des listes codées en dur ;
+- seuls les niveaux géographiques validés pour le public peuvent apparaître ; `planned` reste invisible ;
+- activation publique du Ruban du Monde différée jusqu’à validation humaine explicite.
+
+Loi mondiale :
+
+**LE MONDE NE S’AFFICHE PAS PAR PROMESSE. IL S’AFFICHE À MESURE QU’IL S’OUVRE.**
 
 ---
 
-**DIGIYLYFE — Le CORE relie. Le pays organise. Le territoire rapproche.**
+**DIGIYLYFE — Le CORE relie. Le pays organise. Le territoire rapproche. Le monde s’affiche à mesure qu’il s’ouvre.**

@@ -8,6 +8,10 @@ Références supérieures :
 - [`MASTER-CORE.md`](./MASTER-CORE.md)
 - [`MASTER-PAYS.md`](./MASTER-PAYS.md)
 
+Références universelles validées :
+- [`MAITRE-TERRITOIRE-UNIVERSEL-V1.md`](./MAITRE-TERRITOIRE-UNIVERSEL-V1.md)
+- `BEAUVILLE/digiy-master-modeles/MASTER-TERRITOIRE-UNIVERSEL-V1/`
+
 ## Arbre maître
 
 **CORE MONDIAL → PAYS → TERRITOIRE → ZONE → BESOIN → PROFESSIONNEL → OUVRIR**
@@ -167,6 +171,30 @@ Le premier territoire de référence est :
 Configuration technique : `BEAUVILLE/digiy-master-modeles/MASTER-TERRITOIRE-PETITE-COTE-V1/`.
 
 Saly est la première zone pilote de raccordement architectural. Mbour sert de deuxième pilote pour vérifier la couverture inter-zones et la conservation de l'ancrage réel des professionnels.
+
+## 9. Extraction universelle validée — 26 août 2026
+
+Après validation croisée de plusieurs terrains, la mécanique territoire commune est désormais formalisée dans :
+
+`BEAUVILLE/digiy-master-modeles/MASTER-TERRITOIRE-UNIVERSEL-V1/`
+
+Son autorité doctrinale est :
+
+`BEAUVILLE/digiy-master/MAITRE-TERRITOIRE-UNIVERSEL-V1.md`
+
+Le MASTER universel n’efface pas les MASTER territoires existants. Il devient le **point de départ obligatoire pour tout nouveau territoire**.
+
+Règles universalisées notamment :
+
+- vrais professionnels prioritaires ;
+- exemples clairement marqués et secondaires ;
+- règle « LE VIDE NE S’AFFICHE PAS. IL SE PROJETTE. » ;
+- ANNONCES / BESOINS DU MOMENT comme porte chaude lorsqu’elle est active ;
+- LA VOIX comme recherche transversale, jamais comme métier ;
+- identité visuelle locale configurable sans dupliquer le moteur ;
+- prix hérités du MASTER PAYS ;
+- validation humaine avant publication et avant propagation d’une nouvelle règle ;
+- PWA de `digiylyfe.com` protégé comme invariant de non-régression.
 
 ---
 

@@ -111,7 +111,41 @@ Toute évolution de l’index principal doit préserver :
 
 Toute suppression volontaire d’un élément PWA exige validation humaine explicite.
 
-## 8. Parcours sans cul-de-sac
+## 8. RUBAN DU MONDE — autorité de navigation mondiale
+
+Le Ruban du Monde est la couche future de navigation géographique globale de DIGIYLYFE.
+
+Hiérarchie canonique :
+
+**MONDE → PAYS → RÉGION / TERRITOIRE → VILLE / ZONE → BESOIN → PROFESSIONNEL**
+
+Il ne doit jamais être alimenté par une liste géographique écrite à la main dans l’index. Sa source doit rester la configuration validée du CORE, des MASTER PAYS et des MASTER TERRITOIRE.
+
+### Règle de vérité géographique
+
+- `active` = peut apparaître ;
+- `pilot` = peut apparaître seulement après validation publique ;
+- `planned` = invisible ;
+- `inactive` / `suspended` = invisible ;
+- toute nouvelle apparition publique exige validation humaine.
+
+### Règle d’interface
+
+Sur mobile, le modèle privilégié est une bande horizontale tactile et déroulante. Sur écran large, elle peut devenir un ruban ou un sélecteur compact sans changer la hiérarchie.
+
+Un lien profond explicite (`zone`, `local`, `need`) garde la priorité. Le Ruban du Monde ne doit jamais écraser une intention déjà exprimée par le visiteur.
+
+### Loi du Ruban du Monde
+
+**LE MONDE NE S’AFFICHE PAS PAR PROMESSE. IL S’AFFICHE À MESURE QU’IL S’OUVRE.**
+
+Le Ruban du Monde est **validé structurellement mais non activé publiquement à ce stade**. Son activation sur l’index principal exige une décision humaine explicite et doit préserver intégralement le PWA.
+
+Le contrat technique correspondant est :
+
+`BEAUVILLE/digiy-master-modeles/MASTER-TERRITOIRE-UNIVERSEL-V1/config/world-ribbon-contract.json`
+
+## 9. Parcours sans cul-de-sac
 
 Prospect professionnel :
 
@@ -125,7 +159,7 @@ LA VOIX :
 
 `REQUÊTE → INTENTION → RÉSULTATS RÉELS → OUVRIR`
 
-## 9. Prix
+## 10. Prix
 
 Le territoire n’invente pas son prix.
 
@@ -133,7 +167,7 @@ Le prix public autorisé vient du MASTER PAYS / runtime commercial pays.
 
 Un territoire peut afficher le prix autorisé, mais ne crée jamais une grille parallèle.
 
-## 10. Validation humaine
+## 11. Validation humaine
 
 Une règle locale ne devient universelle qu’après preuve suffisante et validation humaine.
 
@@ -143,16 +177,20 @@ Ordre recommandé :
 
 `OBSERVATION TERRAIN → CORRECTION LOCALE → VALIDATION VISUELLE → EXTRACTION DE LA RÈGLE UNIVERSELLE → MASTER / MAÎTRE`.
 
-## 11. Règle de fabrication d’un nouveau territoire
+Pour le Ruban du Monde :
+
+`TERRITOIRE VALIDÉ → STATUT PUBLIC VALIDÉ → ÉLIGIBLE AU RUBAN → ACTIVATION HUMAINE`.
+
+## 12. Règle de fabrication d’un nouveau territoire
 
 **ON HÉRITE DU MOTEUR. ON RECONSTRUIT LE TERRITOIRE.**
 
 Le MASTER universel fournit le moule. Le pays fournit les règles nationales. Le territoire fournit son identité, ses zones et ses projections. Supabase fournit le réel.
 
-## 12. Formule finale MAÎTRE
+## 13. Formule finale MAÎTRE
 
-**LE MODULE OUVRE. SUPABASE AIGUILLE. LE PRO POSSÈDE SA VITRINE. L’EXEMPLE PROJETTE. L’ANNONCE REMONTE. LA VOIX CHERCHE. LE PWA RESTE.**
+**LE MODULE OUVRE. SUPABASE AIGUILLE. LE PRO POSSÈDE SA VITRINE. L’EXEMPLE PROJETTE. L’ANNONCE REMONTE. LA VOIX CHERCHE. LE PWA RESTE. LE MONDE S’AFFICHE À MESURE QU’IL S’OUVRE.**
 
 ---
 
-**DIGIYLYFE — Le moteur reste commun. Le territoire devient reconnaissable. Le professionnel reste propriétaire de sa présence.**
+**DIGIYLYFE — Le moteur reste commun. Le territoire devient reconnaissable. Le professionnel reste propriétaire de sa présence. Le monde n’apparaît que lorsqu’il devient réel.**

@@ -180,30 +180,47 @@ Cela ne crée jamais un nouveau CORE et n'impose pas une société par module.
 - extensions naturelles : Bordeaux, Arcachon… ;
 - français + langues visiteurs.
 
-## 13. CARTE DE VISITE DIGIY — FICHE ADHÉRENT
+## 13. CARTE DE VISITE DIGIY — SOCLE ADHÉRENT
 
-La carte de visite digitale DIGIY n'est pas une « fiche pro » générique. C'est une **FICHE ADHÉRENT** : une surface personnelle attribuée à un adhérent DIGIYLYFE validé.
+La **carte de visite DIGIY** est la surface minimale de l'adhérent. Elle peut être présente dans le site / territoire DIGIYLYFE sans imposer une fiche détaillée ni un site individuel.
 
-Le professionnel peut exister dans le territoire comme professionnel réel sans pour autant posséder cette fiche adhérent. La carte DIGIY appartient à la couche adhésion et relation directe.
+Un professionnel réel peut exister dans le territoire sans être adhérent. Un adhérent validé peut, lui, choisir de ne disposer que de sa carte de visite DIGIY.
 
-Parcours canonique :
+Parcours canonique minimal :
 
-**QR STABLE → FICHE ADHÉRENT / PWA → ACTION DIRECTE → RELATION CLIENT**
+**QR STABLE → CARTE DE VISITE ADHÉRENT / PWA → ACTION DIRECTE → RELATION CLIENT**
 
-La fiche adhérent doit pouvoir proposer nativement, lorsque les données sont disponibles et autorisées :
+La carte doit pouvoir proposer nativement, lorsque les données sont disponibles et autorisées :
 
 - **Appeler** : ouverture de l'appel téléphonique normal via `tel:` ;
 - **WhatsApp** : ouverture directe de la conversation WhatsApp ;
 - **Copier le numéro** : copie du numéro public dans le presse-papiers ;
 - affichage lisible du numéro public.
 
-Le QR de l'adhérent doit rester stable. L'enrichissement ultérieur de sa présence — produits, services, catalogue, réservation, site ou autres capacités — ne doit pas obliger à remplacer le QR déjà diffusé.
+Le QR de l'adhérent doit rester stable. Les enrichissements ultérieurs ne doivent pas obliger à remplacer le QR déjà diffusé.
 
-Lorsque la surface est compatible PWA, la fiche adhérent doit pouvoir être installée ou ajoutée à l'écran d'accueil du téléphone du client lorsque le navigateur le permet et avec action volontaire de l'utilisateur. DIGIYLYFE ne prétend jamais installer automatiquement la PWA sans consentement.
+Lorsque la surface est compatible PWA, la carte adhérent doit pouvoir être installée ou ajoutée à l'écran d'accueil du téléphone du client lorsque le navigateur le permet et avec action volontaire de l'utilisateur. DIGIYLYFE ne prétend jamais installer automatiquement la PWA sans consentement.
 
-La fiche adhérent peut rester minimale au départ. Une fiche enrichie, un catalogue, une boutique ou un site peuvent être proposés plus tard selon l'usage réel et le besoin du terrain.
+## 14. FICHE ET SITE — FACULTATIFS
 
-**Loi de la fiche adhérent : LE QR FAIT ENTRER. LA FICHE RESTE. L'ADHÉRENT GARDE LA RELATION DIRECTE.**
+La **fiche adhérent enrichie est facultative**. Le **site individuel est facultatif**.
+
+L'adhésion ne force jamais l'adhérent à acheter, publier ou maintenir une fiche détaillée, un catalogue, une boutique ou un site.
+
+L'adhérent reste libre de conserver uniquement sa carte de visite DIGIY dans l'écosystème.
+
+DIGIYLYFE peut proposer ultérieurement, selon le besoin réel :
+
+- une fiche enrichie ;
+- un catalogue de produits ou services ;
+- une réservation ;
+- une boutique ;
+- un site individuel ;
+- d'autres capacités utiles.
+
+Ces prestations arrivent **après**, lorsque l'usage, le terrain ou l'adhérent le justifient. Elles ne constituent pas une condition de l'adhésion.
+
+**Loi commerciale : LA CARTE OUVRE LA RELATION. LA FICHE ET LE SITE RESTENT UN CHOIX.**
 
 ## Règle finale
 

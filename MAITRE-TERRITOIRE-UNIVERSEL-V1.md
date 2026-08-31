@@ -191,30 +191,48 @@ Le MASTER universel fournit le moule. Le pays fournit les règles nationales. Le
 
 **LE MODULE OUVRE. SUPABASE AIGUILLE. LE PRO POSSÈDE SA VITRINE. L’EXEMPLE PROJETTE. L’ANNONCE REMONTE. LA VOIX CHERCHE. LE PWA RESTE. LE MONDE S’AFFICHE À MESURE QU’IL S’OUVRE.**
 
-## 14. CARTE DE VISITE DIGIY — FICHE ADHÉRENT
+## 14. CARTE DE VISITE DIGIY — SOCLE ADHÉRENT
 
-La carte de visite DIGIY est une **FICHE ADHÉRENT**, et non une fiche pro générique.
+La carte de visite DIGIY est la **surface minimale de l'adhérent** dans l'écosystème. Elle ne doit pas être confondue avec une fiche adhérent enrichie ni avec un site individuel.
 
-Un professionnel réel peut être visible dans le territoire sans être adhérent. Seul l'adhérent validé reçoit la carte DIGIY attachée à son adhésion et à sa relation client directe.
+Un professionnel réel peut être visible dans le territoire sans être adhérent. Un adhérent validé peut choisir de disposer uniquement de sa carte de visite DIGIY dans le site / territoire DIGIYLYFE.
 
-Invariant universel :
+Invariant universel minimal :
 
-**QR STABLE → FICHE ADHÉRENT / PWA → CONTACT DIRECT → RELATION CLIENT**
+**QR STABLE → CARTE ADHÉRENT / PWA → CONTACT DIRECT → RELATION CLIENT**
 
-La fiche adhérent doit pouvoir offrir, lorsque les coordonnées existent et sont autorisées :
+La carte doit pouvoir offrir, lorsque les coordonnées existent et sont autorisées :
 
 - **Appeler** via le téléphone normal ;
 - **WhatsApp** en accès direct ;
 - **Copier le numéro** dans le presse-papiers ;
 - numéro public lisible et réutilisable manuellement.
 
-Le QR déjà posé chez l'adhérent ne doit pas changer lorsque sa présence s'enrichit. La même adresse canonique doit pouvoir évoluer progressivement vers davantage de contenu ou de capacités.
+Le QR déjà posé chez l'adhérent ne doit pas changer lorsque sa présence s'enrichit.
 
-Lorsque la technologie du navigateur le permet, la fiche adhérent peut être installée ou ajoutée à l'écran d'accueil comme PWA, toujours par action volontaire du client. Le scan du QR ne doit jamais être présenté comme une installation automatique.
+Lorsque la technologie du navigateur le permet, la carte adhérent peut être installée ou ajoutée à l'écran d'accueil comme PWA, toujours par action volontaire du client. Le scan du QR ne doit jamais être présenté comme une installation automatique.
 
-L'adhésion peut commencer avec cette surface simple. Le site, les produits, le catalogue, la réservation ou d'autres enrichissements viennent ensuite selon le besoin réel ; ils ne sont pas imposés au premier contact.
+## 15. FICHE ET SITE — LIBERTÉ DE L'ADHÉRENT
 
-**LOI UNIVERSELLE : LE QR FAIT ENTRER. LA FICHE ADHÉRENT RESTE. L'ADHÉRENT GARDE LA RELATION DIRECTE.**
+La **fiche adhérent enrichie est facultative**. Le **site individuel est facultatif**.
+
+L'adhésion n'oblige jamais l'adhérent à acheter une fiche, un catalogue, une boutique, un moteur métier ou un site.
+
+L'adhérent peut rester durablement avec sa seule carte de visite DIGIY si cela correspond à son besoin.
+
+DIGIYLYFE reste compétent pour lui proposer plus tard, à sa demande ou lorsque le besoin devient évident :
+
+- une fiche enrichie ;
+- des produits ou services ;
+- un catalogue ;
+- une réservation ;
+- une boutique ;
+- un site individuel ;
+- d'autres capacités utiles.
+
+Ces enrichissements sont des prestations ultérieures et volontaires. Ils ne conditionnent ni l'adhésion ni la présence minimale de l'adhérent.
+
+**LOI UNIVERSELLE : LA CARTE EST LE SOCLE. LA FICHE ET LE SITE SONT UN CHOIX. L'ADHÉRENT RESTE LIBRE.**
 
 ---
 

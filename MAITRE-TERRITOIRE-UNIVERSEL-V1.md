@@ -234,6 +234,16 @@ Ces enrichissements sont des prestations ultérieures et volontaires. Ils ne con
 
 **LOI UNIVERSELLE : LA CARTE EST LE SOCLE. LA FICHE ET LE SITE SONT UN CHOIX. L'ADHÉRENT RESTE LIBRE.**
 
+## 16. SIGNATURE DE MARQUE UNIVERSELLE
+
+La signature de marque canonique est :
+
+**DIGIYLYFE.COM · L’empreinte numérique du professionnel**
+
+Elle constitue la signature transversale de la maison DIGIYLYFE et peut accompagner les cartes de visite adhérents, fiches, sites, territoires et autres surfaces publiques lorsqu’elle est pertinente.
+
+Elle ne remplace jamais le nom, l’identité ni la marque propre du professionnel. Elle signe l’infrastructure DIGIYLYFE derrière une présence dont le professionnel reste au premier plan.
+
 ---
 
 **DIGIYLYFE — Le moteur reste commun. Le territoire devient reconnaissable. Le professionnel reste propriétaire de sa présence. Le monde n’apparaît que lorsqu’il devient réel.**

@@ -191,6 +191,31 @@ Le MASTER universel fournit le moule. Le pays fournit les règles nationales. Le
 
 **LE MODULE OUVRE. SUPABASE AIGUILLE. LE PRO POSSÈDE SA VITRINE. L’EXEMPLE PROJETTE. L’ANNONCE REMONTE. LA VOIX CHERCHE. LE PWA RESTE. LE MONDE S’AFFICHE À MESURE QU’IL S’OUVRE.**
 
+## 14. CARTE DE VISITE DIGIY — FICHE ADHÉRENT
+
+La carte de visite DIGIY est une **FICHE ADHÉRENT**, et non une fiche pro générique.
+
+Un professionnel réel peut être visible dans le territoire sans être adhérent. Seul l'adhérent validé reçoit la carte DIGIY attachée à son adhésion et à sa relation client directe.
+
+Invariant universel :
+
+**QR STABLE → FICHE ADHÉRENT / PWA → CONTACT DIRECT → RELATION CLIENT**
+
+La fiche adhérent doit pouvoir offrir, lorsque les coordonnées existent et sont autorisées :
+
+- **Appeler** via le téléphone normal ;
+- **WhatsApp** en accès direct ;
+- **Copier le numéro** dans le presse-papiers ;
+- numéro public lisible et réutilisable manuellement.
+
+Le QR déjà posé chez l'adhérent ne doit pas changer lorsque sa présence s'enrichit. La même adresse canonique doit pouvoir évoluer progressivement vers davantage de contenu ou de capacités.
+
+Lorsque la technologie du navigateur le permet, la fiche adhérent peut être installée ou ajoutée à l'écran d'accueil comme PWA, toujours par action volontaire du client. Le scan du QR ne doit jamais être présenté comme une installation automatique.
+
+L'adhésion peut commencer avec cette surface simple. Le site, les produits, le catalogue, la réservation ou d'autres enrichissements viennent ensuite selon le besoin réel ; ils ne sont pas imposés au premier contact.
+
+**LOI UNIVERSELLE : LE QR FAIT ENTRER. LA FICHE ADHÉRENT RESTE. L'ADHÉRENT GARDE LA RELATION DIRECTE.**
+
 ---
 
 **DIGIYLYFE — Le moteur reste commun. Le territoire devient reconnaissable. Le professionnel reste propriétaire de sa présence. Le monde n’apparaît que lorsqu’il devient réel.**

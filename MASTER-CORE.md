@@ -180,6 +180,31 @@ Cela ne crée jamais un nouveau CORE et n'impose pas une société par module.
 - extensions naturelles : Bordeaux, Arcachon… ;
 - français + langues visiteurs.
 
+## 13. CARTE DE VISITE DIGIY — FICHE ADHÉRENT
+
+La carte de visite digitale DIGIY n'est pas une « fiche pro » générique. C'est une **FICHE ADHÉRENT** : une surface personnelle attribuée à un adhérent DIGIYLYFE validé.
+
+Le professionnel peut exister dans le territoire comme professionnel réel sans pour autant posséder cette fiche adhérent. La carte DIGIY appartient à la couche adhésion et relation directe.
+
+Parcours canonique :
+
+**QR STABLE → FICHE ADHÉRENT / PWA → ACTION DIRECTE → RELATION CLIENT**
+
+La fiche adhérent doit pouvoir proposer nativement, lorsque les données sont disponibles et autorisées :
+
+- **Appeler** : ouverture de l'appel téléphonique normal via `tel:` ;
+- **WhatsApp** : ouverture directe de la conversation WhatsApp ;
+- **Copier le numéro** : copie du numéro public dans le presse-papiers ;
+- affichage lisible du numéro public.
+
+Le QR de l'adhérent doit rester stable. L'enrichissement ultérieur de sa présence — produits, services, catalogue, réservation, site ou autres capacités — ne doit pas obliger à remplacer le QR déjà diffusé.
+
+Lorsque la surface est compatible PWA, la fiche adhérent doit pouvoir être installée ou ajoutée à l'écran d'accueil du téléphone du client lorsque le navigateur le permet et avec action volontaire de l'utilisateur. DIGIYLYFE ne prétend jamais installer automatiquement la PWA sans consentement.
+
+La fiche adhérent peut rester minimale au départ. Une fiche enrichie, un catalogue, une boutique ou un site peuvent être proposés plus tard selon l'usage réel et le besoin du terrain.
+
+**Loi de la fiche adhérent : LE QR FAIT ENTRER. LA FICHE RESTE. L'ADHÉRENT GARDE LA RELATION DIRECTE.**
+
 ## Règle finale
 
 **Le monde partage le moteur. Le pays garde sa réalité. Le territoire organise le terrain. Le professionnel garde sa relation directe.**

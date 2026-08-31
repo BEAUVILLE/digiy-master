@@ -222,6 +222,16 @@ Ces prestations arrivent **après**, lorsque l'usage, le terrain ou l'adhérent 
 
 **Loi commerciale : LA CARTE OUVRE LA RELATION. LA FICHE ET LE SITE RESTENT UN CHOIX.**
 
+## 15. SIGNATURE DE MARQUE TRANSVERSALE
+
+La signature de marque canonique de DIGIYLYFE est :
+
+**DIGIYLYFE.COM · L’empreinte numérique du professionnel**
+
+Cette signature peut accompagner les cartes de visite adhérents, fiches, sites, territoires et autres surfaces publiques DIGIYLYFE lorsqu’elle est pertinente.
+
+Elle signe l’infrastructure et la maison DIGIYLYFE sans remplacer ni écraser l’identité du professionnel ou de l’adhérent.
+
 ## Règle finale
 
 **Le monde partage le moteur. Le pays garde sa réalité. Le territoire organise le terrain. Le professionnel garde sa relation directe.**

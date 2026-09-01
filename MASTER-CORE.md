@@ -64,6 +64,7 @@ Le moteur présente des besoins humains simples. La base V1 est :
 - Se déplacer
 - Trouver un artisan
 - Services professionnels
+- Santé & soins
 - Dormir ou louer
 - Manger ou réserver
 - Acheter local
@@ -73,6 +74,8 @@ Le moteur présente des besoins humains simples. La base V1 est :
 - La Voix / orientation
 
 **Services professionnels** couvre notamment les professions de conseil, d'expertise et de prestation intellectuelle ou réglementée telles que : avocat, architecte, comptable / expert-comptable, géomètre, assureur / courtier en assurance, consultant ou bureau d'études. Cette catégorie publique ne constitue jamais une certification par DIGIYLYFE.
+
+**Santé & soins** couvre notamment : médecin, infirmier / infirmière, sage-femme et aide à la personne. L'aide à la personne peut inclure des prestations non médicales d'accompagnement à domicile. DIGIYLYFE publie une présence et un contact direct ; cette catégorie ne constitue jamais une validation de diplôme, d'autorisation d'exercer, de compétence médicale ni une prise en charge d'urgence.
 
 Ces familles peuvent évoluer, mais elles restent indépendantes des modules techniques.
 

@@ -174,6 +174,7 @@ Applications validées :
 
 - **LOC** : présence publique d’hébergement + accès propriétaire + gestion privée des disponibilités ;
 - **DRIVER** : fiche publique chauffeur + accès propriétaire + disponibilité, secteur et profil de service privés, avec remontée contrôlée des informations publiques.
+- **RESA** : présence publique de réservation + accès propriétaire + gestion privée des créneaux et des demandes ; le professionnel confirme ou refuse lui-même.
 
 **Loi du CORE : un seul rail pour entrer ; chaque module garde sa maison ; chaque propriétaire ne pilote que sa porte.**
 

@@ -14,7 +14,7 @@ Règles non négociables du CORE :
 - le pays est la première porte opérationnelle ;
 - un nouveau pays est d'abord une configuration et des données, jamais une copie complète du moteur ;
 - la géographie, le besoin, le professionnel et la capacité métier restent des couches distinctes ;
-- DRIVER, LOC, RESA, MARKET, BUILD, JOB, EXPLORE, CARNET et autres briques sont des capacités, pas la colonne vertébrale visible ;
+- DRIVER, LOC, RESA, COMMERCE, BUILD, JOB, EXPLORE, CARNET et autres briques sont des capacités, pas la colonne vertébrale visible ;
 - dans les territoires, l'action générique vers la présence du professionnel est **OUVRIR** ;
 - ne jamais qualifier cette présence comme « fiche » ou « site » si le niveau commercial n'a pas à être révélé.
 
@@ -36,7 +36,7 @@ Règles non négociables :
 - identité validée, `owner_id`, statut actif / adhérent, structure DIGIY et éléments de marque restent sous contrôle DIGIY ;
 - réutiliser le même contrat d’accès au lieu de fabriquer un système différent par métier.
 
-**LOC, DRIVER et RESA sont les références actuelles de cette doctrine.**
+**LOC, DRIVER, RESA, COMMERCE, BUILD, JOB et EXPLORE sont les références actuelles de cette doctrine.**
 
 ## Règles non négociables
 
@@ -94,7 +94,9 @@ Une page plus sobre doit mieux guider l'utilisateur, pas l'enfermer.
 
 ## Capacités métier
 
-DRIVER · LOC · MARKET · JOB · BUILD · RESA · EXPLORE · CARNET · RESTO · autres briques validées.
+**MARKET est legacy / hors service. Ne pas le réactiver : MON COMMERCE / COMMERCE est la capacité active pour les commerces.**
+
+DRIVER · LOC · COMMERCE · JOB · BUILD · RESA · EXPLORE · CARNET · RESTO · autres briques validées.
 
 Ces capacités peuvent évoluer indépendamment du MASTER CORE. Elles ne définissent jamais à elles seules un pays ou un territoire.
 

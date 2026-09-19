@@ -1,6 +1,6 @@
 # DIGIYLYFE MASTER CORE 🌍🦅
 
-**Statut : SOCLE VALIDÉ — V1**
+**Statut : SOCLE VALIDÉ — V1 · COUCHE PROPRIÉTAIRE ALIGNÉE 19/09/2026**
 
 Le MASTER CORE est la colonne vertébrale mondiale de DIGIYLYFE.
 
@@ -150,6 +150,32 @@ Cette couche ne doit pas modifier l'arbre public :
 **PAYS → TERRITOIRE → ZONE → BESOIN → PROFESSIONNEL → OUVRIR**
 
 Ainsi les tarifs, offres et niveaux de travail peuvent évoluer sans reconstruire le moteur territorial.
+
+## 9 bis. Couche propriétaire commune aux capacités métier
+
+Lorsqu’une capacité métier doit être pilotée par le professionnel lui-même, DIGIYLYFE applique un contrat unique, indépendant du métier :
+
+**TARIF ADHÉRENT → activation DIGIY PRO → capacité métier → propriétaire authentifié → espace privé → présence publique autorisée**
+
+Cette couche propriétaire ne crée jamais une seconde porte commerciale ni un formulaire d’adhésion parallèle.
+
+Règles communes :
+
+- l’adhésion et l’activation restent séparées de l’usage métier ;
+- le professionnel s’authentifie par son accès propriétaire sécurisé, de préférence par email avec magic link / code lorsque ce rail est activé ;
+- l’espace privé appartient au module métier ;
+- le propriétaire ne peut agir que sur ses propres données ;
+- les données publiques et les données privées sont séparées ;
+- les champs métier prévus comme publics peuvent remonter sur la présence publique ;
+- l’identité validée, le propriétaire technique, le statut actif / adhérent, la structure de la présence et les éléments de marque restent sous contrôle DIGIY ;
+- aucun module ne doit réinventer ce contrat si le socle commun existe déjà.
+
+Applications validées :
+
+- **LOC** : présence publique d’hébergement + accès propriétaire + gestion privée des disponibilités ;
+- **DRIVER** : fiche publique chauffeur + accès propriétaire + disponibilité, secteur et profil de service privés, avec remontée contrôlée des informations publiques.
+
+**Loi du CORE : un seul rail pour entrer ; chaque module garde sa maison ; chaque propriétaire ne pilote que sa porte.**
 
 ## 10. Architecture juridique séparée
 

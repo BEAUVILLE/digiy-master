@@ -18,6 +18,26 @@ Règles non négociables du CORE :
 - dans les territoires, l'action générique vers la présence du professionnel est **OUVRIR** ;
 - ne jamais qualifier cette présence comme « fiche » ou « site » si le niveau commercial n'a pas à être révélé.
 
+## Couche propriétaire commune
+
+Lorsqu’un module métier est piloté par le professionnel, appliquer le contrat commun :
+
+**TARIF ADHÉRENT → activation → module métier → propriétaire authentifié → espace privé → données publiques autorisées**
+
+Règles non négociables :
+
+- ne jamais recréer une inscription métier parallèle au rail TARIF ADHÉRENT ;
+- la fiche / présence publique reste en lecture seule ;
+- les modifications métier se font dans l’espace propriétaire privé du module ;
+- l’accès propriétaire doit vérifier l’utilisateur réel et son droit sur la ressource ;
+- un propriétaire ne lit ni ne modifie les données d’un autre ;
+- les données privées restent privées ;
+- seules les données explicitement publiques remontent sur la présence publique ;
+- identité validée, `owner_id`, statut actif / adhérent, structure DIGIY et éléments de marque restent sous contrôle DIGIY ;
+- réutiliser le même contrat d’accès au lieu de fabriquer un système différent par métier.
+
+**LOC et DRIVER sont les deux références actuelles de cette doctrine.**
+
 ## Règles non négociables
 
 - Toujours partir du fichier réel existant.

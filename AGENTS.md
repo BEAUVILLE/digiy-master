@@ -36,7 +36,7 @@ Règles non négociables :
 - identité validée, `owner_id`, statut actif / adhérent, structure DIGIY et éléments de marque restent sous contrôle DIGIY ;
 - réutiliser le même contrat d’accès au lieu de fabriquer un système différent par métier.
 
-**LOC et DRIVER sont les deux références actuelles de cette doctrine.**
+**LOC, DRIVER et RESA sont les références actuelles de cette doctrine.**
 
 ## Règles non négociables
 

@@ -103,9 +103,11 @@ Les actions fonctionnelles restent nommées explicitement quand elles existent :
 
 ## 6. Les modules sont des CAPACITÉS
 
-DRIVER, LOC, RESA, MARKET, BUILD, JOB, EXPLORE, CARNET et les autres briques ne constituent pas l'arbre principal.
+DRIVER, LOC, RESA, COMMERCE, BUILD, JOB, EXPLORE, CARNET et les autres briques ne constituent pas l'arbre principal.
 
 Ils deviennent des capacités activables derrière un professionnel ou une activité.
+
+**MARKET** est hors service et ne doit pas être réactivé comme capacité active : **MON COMMERCE / COMMERCE** reprend cette fonction pour les commerces.
 
 Le visiteur voit son besoin et le professionnel. La plomberie interne reste invisible.
 
@@ -175,6 +177,10 @@ Applications validées :
 - **LOC** : présence publique d’hébergement + accès propriétaire + gestion privée des disponibilités ;
 - **DRIVER** : fiche publique chauffeur + accès propriétaire + disponibilité, secteur et profil de service privés, avec remontée contrôlée des informations publiques.
 - **RESA** : présence publique de réservation + accès propriétaire + gestion privée des créneaux et des demandes ; le professionnel confirme ou refuse lui-même.
+- **COMMERCE** : présence publique du commerce + accès propriétaire + gestion privée des produits, prix, disponibilités, photos et visibilité ;
+- **BUILD** : présence publique artisan + accès propriétaire + demandes assignées, contact client, décision et note privée ;
+- **JOB** : présence publique recruteur + accès propriétaire + offres et candidatures du seul workspace ;
+- **EXPLORE** : présence publique de découverte + accès propriétaire + disponibilité, horaires, créneaux, capacité et demandes.
 
 **Loi du CORE : un seul rail pour entrer ; chaque module garde sa maison ; chaque propriétaire ne pilote que sa porte.**
 

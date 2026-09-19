@@ -30,6 +30,8 @@ Principes :
 
 Références : [`MASTER-CORE.md`](./MASTER-CORE.md) · [`MASTER-PAYS.md`](./MASTER-PAYS.md) · [`MASTER-TERRITOIRE.md`](./MASTER-TERRITOIRE.md).
 
+Contrat propriétaire commun : **TARIF ADHÉRENT → activation DIGIY PRO → module métier → propriétaire authentifié → espace privé → données publiques autorisées**.
+
 ## Skills disponibles
 
 | Skill | Rôle |

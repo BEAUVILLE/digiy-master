@@ -49,7 +49,7 @@ Contrat propriétaire commun : **TARIF ADHÉRENT → activation DIGIY PRO → mo
 - On livre toujours le fichier entier quand une correction est demandée.
 - On peut épurer une page, mais on ne doit jamais couper ses routes utiles.
 - La présence publique garde le contact direct et ne confond jamais carte, fiche et site : l'action territoriale universelle est **OUVRIR**.
-- LOC et DRIVER appliquent déjà la même loi : **fiche publique lisible par tous, gestion privée par le propriétaire, identité et statut adhérent sous contrôle DIGIY**.
+- LOC, DRIVER et RESA appliquent déjà la même loi : **présence publique lisible par tous, gestion privée par le propriétaire, identité et statut adhérent sous contrôle DIGIY**.
 
 ## Plateforme
 

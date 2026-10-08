@@ -159,6 +159,12 @@ LA VOIX :
 
 `REQUÊTE → INTENTION → RÉSULTATS RÉELS → OUVRIR`
 
+## 9 bis. Vitrine réelle : accès humain immédiat
+
+Après **OUVRIR**, la présence réelle doit rendre le **contact direct** évident sur mobile : **Appeler** via `tel:` lorsque le téléphone est confirmé, et **WhatsApp** direct lorsque ce canal est disponible. Les noms de modules (BUILD, DRIVER…) restent secondaires dans les actions client. Les formulaires de précision sont facultatifs et ne doivent pas barrer la route à un appel rapide.
+
+Cette règle s'applique à chaque nouvelle carte, fiche ou vitrine par héritage du moule métier ; elle n'impose ni refonte ni migration automatique des présences existantes. Validation : numéro exact, ouverture des liens, lisibilité tactile, huit langues si activées, QR/PWA et accès propriétaire inchangés. Les observations Lamine / Babacar (Petite Côte) motivent cette règle, sans prétendre qu'un test de conversion quantitatif a été réalisé.
+
 ## 10. Prix
 
 Le territoire n’invente pas son prix.

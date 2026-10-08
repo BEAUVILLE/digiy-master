@@ -101,6 +101,20 @@ Le territoire ne doit jamais créer de confusion entre ces niveaux de prestation
 
 Les actions fonctionnelles restent nommées explicitement quand elles existent : **WhatsApp**, **Appeler**, etc.
 
+## 5 bis. Contact direct prioritaire — règle universelle de vitrine
+
+Pour chaque présence réelle (carte, fiche, site ou vitrine métier), la première action utile du visiteur doit être **joindre le professionnel**, non découvrir le nom technique du module.
+
+- Montrer le **numéro public lisible** et un bouton **Appeler** natif (`tel:`) lorsque le numéro est confirmé et autorisé.
+- Proposer **WhatsApp direct** (`wa.me`) lorsque ce canal est confirmé, sans formulaire obligatoire préalable.
+- Sur téléphone, placer **Appeler et WhatsApp en priorité**, visibles sans recherche ni défilement excessif ; les accès BUILD / DRIVER / autres modules, partager, copier et propriétaire restent accessibles mais secondaires pour le client.
+- Les formulaires métier restent facultatifs lorsqu'un contact direct est possible ; ne pas les supprimer automatiquement s'ils apportent une valeur réelle.
+- Respecter les huit langues activées et le RTL arabe ; conserver PWA, QR stable, URL canonique, gestion propriétaire et sécurité.
+- Adapter les libellés au besoin humain (ex. « Appeler l'artisan »), jamais imposer le jargon technique comme action principale.
+- Ne pas publier de numéro non vérifié ni inventer de disponibilité, urgence garantie ou prix.
+
+**Méthode de généralisation : audit de la vitrine réelle → correction minimale locale → test sur téléphone → validation humaine → intégration au moule MASTER / MAÎTRE → contrôle de chaque nouvelle instance.** Une mise à jour du moule n'implique pas une modification automatique des vitrines déjà publiées.
+
 ## 6. Les modules sont des CAPACITÉS
 
 DRIVER, LOC, RESA, COMMERCE, BUILD, JOB, EXPLORE, CARNET et les autres briques ne constituent pas l'arbre principal.
